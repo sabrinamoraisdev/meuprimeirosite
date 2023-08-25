@@ -1,6 +1,34 @@
 html, body {
-margin: 0;
+    margin: 0;
 }
 #imagem_fundo {
     background: url(fundo.jpg);
+    height: 60%;
+    text-align: center;
+    background-size: 100%;
+    }
+
+#título {
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
 }
+
+#subtítulo {
+    color: white;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-top: 5px solid white;
+    text-shadow: white;
+   }
+#acao {
+    color: white;
+    border: 1px solid white;
+    border-radius: 80%;
+    padding: 10px 20px 10px 20px;
+}
+.icone {
+    width: 60px;
+}
+
